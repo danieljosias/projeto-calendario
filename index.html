@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <!--css-->
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+<div class="conteudo">
+   <div class="calendario">
+        <header>
+            <h2 id="mes">Abril</h2>
+            
+            <a class="btn_proximo" id="btn_next"> > </a>
+            <a class="btn_anterior" id="btn_prev"> < </a>
+            
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <td class="dia-semana">Dom</td>
+                    <td class="dia-semana">Seg</td>
+                    <td class="dia-semana">Ter</td>
+                    <td class="dia-semana">Qua</td>
+                    <td class="dia-semana">Qui</td>
+                    <td class="dia-semana">Sex</td>
+                    <td class="dia-semana">Sab</td>
+                </tr>
+            </thead>
+            <tbody id="dias">
+                <tr>
+                    <td class="mes-anterior">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="dia-atual event">4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td class="proximo-mes">7</td>
+                </tr>
+            </tbody>
+            <footer>
+                <h2 id="ano">2021</h2>
+            </footer>
+        </table>
+    </div>        
+</div>   
+</div>   
+
+<!--js-->
+<script src="scripts.js"></script>
+</body>
+</html>
